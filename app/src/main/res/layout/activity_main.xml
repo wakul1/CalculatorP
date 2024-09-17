@@ -24,27 +24,113 @@
         android:rowCount="5">
 
 
-        <Button android:text="7" android:id="@+id/btn7" android:onClick="onDigit"/>
-        <Button android:text="8" android:id="@+id/btn8" android:onClick="onDigit"/>
-        <Button android:text="9" android:id="@+id/btn9" android:onClick="onDigit"/>
-        <Button android:text="/" android:id="@+id/btnDivide" android:onClick="onOperator"/>
+        <Button
+            android:text="7"
+            android:id="@+id/btn7"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="8"
+            android:id="@+id/btn8"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="9"
+            android:id="@+id/btn9"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="/"
+            android:id="@+id/btnDivide"
+            android:onClick="onOperator"
+            android:backgroundTint="@color/cardview_dark_background"
+            />
 
-        <Button android:text="4" android:id="@+id/btn4" android:onClick="onDigit"/>
-        <Button android:text="5" android:id="@+id/btn5" android:onClick="onDigit"/>
-        <Button android:text="6" android:id="@+id/btn6" android:onClick="onDigit"/>
-        <Button android:text="*" android:id="@+id/btnMultiply" android:onClick="onOperator"/>
+        <Button
+            android:text="4"
+            android:id="@+id/btn4"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="5"
+            android:id="@+id/btn5"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="6"
+            android:id="@+id/btn6"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="*"
+            android:id="@+id/btnMultiply"
+            android:onClick="onOperator"
+            android:backgroundTint="@color/cardview_dark_background"
+            />
 
-        <Button android:text="1" android:id="@+id/btn1" android:onClick="onDigit"/>
-        <Button android:text="2" android:id="@+id/btn2" android:onClick="onDigit"/>
-        <Button android:text="3" android:id="@+id/btn3" android:onClick="onDigit"/>
-        <Button android:text="-" android:id="@+id/btnSubtract" android:onClick="onOperator"/>
+        <Button
+            android:text="1"
+            android:id="@+id/btn1"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="2"
+            android:id="@+id/btn2"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="3"
+            android:id="@+id/btn3"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="-"
+            android:id="@+id/btnSubtract"
+            android:onClick="onOperator"
+            android:backgroundTint="@color/cardview_dark_background"
+            />
 
-        <Button android:text="0" android:id="@+id/btn0" android:onClick="onDigit"/>
-        <Button android:text="." android:id="@+id/btnDot" android:onClick="onDecimalPoint"/>
-        <Button android:text="=" android:id="@+id/btnEqual" android:onClick="onEqual"/>
-        <Button android:text="+" android:id="@+id/btnAdd" android:onClick="onOperator"/>
+        <Button
+            android:text="0"
+            android:id="@+id/btn0"
+            android:onClick="onDigit"
+            android:backgroundTint="@color/gray"
+            />
+        <Button
+            android:text="."
+            android:id="@+id/btnDot"
+            android:onClick="onDecimalPoint"
+            android:backgroundTint="@color/cardview_dark_background"
+            />
+        <Button
+            android:text="="
+            android:id="@+id/btnEqual"
+            android:onClick="onEqual"
+            android:backgroundTint="@color/cardview_dark_background"
+            />
+        <Button
+            android:text="+"
+            android:id="@+id/btnAdd"
+            android:onClick="onOperator"
+            android:backgroundTint="@color/cardview_dark_background"
+            />
 
-        <Button android:text="C" android:id="@+id/btnClear" android:onClick="onClear" android:layout_span="4"/>
+        <Button
+            android:text="C"
+            android:id="@+id/btnClear"
+            android:onClick="onClear"
+            android:layout_span="4"
+            android:backgroundTint="@color/buop"
+            />
     </GridLayout>
 
 </LinearLayout>

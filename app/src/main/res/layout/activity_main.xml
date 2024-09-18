@@ -129,7 +129,7 @@
             android:id="@+id/btnClear"
             android:onClick="onClear"
             android:layout_span="4"
-            android:backgroundTint="@color/buop"
+            android:backgroundTint="@color/orange"
             />
     </GridLayout>
 
